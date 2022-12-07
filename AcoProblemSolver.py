@@ -33,7 +33,7 @@ class AcoProblemSolver(Environment):
         self.__configurationProvider = configurationProvider
 
     def getConfigurationProvider(self):
-        if self.__configurationProvider == None:
+        if self.__configurationProvider is None:
             raise ConfigurationException("No Configuration Provider was associated with this solver")
         
         return self.__configurationProvider

@@ -1,5 +1,6 @@
 import zope.interface
 
+
 class ConfigurationProvider(zope.interface.Interface):
     def getNumberOfAnts(self):
         pass
